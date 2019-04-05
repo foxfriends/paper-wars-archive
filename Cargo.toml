@@ -4,5 +4,4 @@ members = [
   "shared",
   "client",
   "server",
-  "frontend-tui",
 ]
