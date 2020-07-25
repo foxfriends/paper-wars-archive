@@ -1,15 +1,15 @@
 [submodule "client"]
 	path = client
-	url = git@github.com:oinkiguana/paper-wars-client
+	url = git@github.com:foxfriends/paper-wars-client
 [submodule "server"]
 	path = server
-	url = git@github.com:oinkiguana/paper-wars-server
+	url = git@github.com:foxfriends/paper-wars-server
 [submodule "frontend-maker"]
 	path = frontend-maker
-	url = git@github.com:oinkiguana/paper-wars-frontend-maker
+	url = git@github.com:foxfriends/paper-wars-frontend-maker
 [submodule "shared"]
 	path = shared
-	url = git@github.com:oinkiguana/paper-wars-shared
+	url = git@github.com:foxfriends/paper-wars-shared
 [submodule "data"]
 	path = data
-	url = git@github.com:oinkiguana/paper-wars-data
+	url = git@github.com:foxfriends/paper-wars-data
