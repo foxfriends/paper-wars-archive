@@ -15,22 +15,26 @@ No.
 To start developing Paper Wars, clone this repository and the submodules.
 
 ```bash
-git clone git@github.com:oinkiguana/paper-wars --recursive
+git clone git@github.com:foxfriends/paper-wars --recursive
 ```
 
-Note that you will probably want to `git checkout master` on each of the submodules before developing,
-as the refs may not have been updated in this repository.
+You will probably want to `git checkout master` on each of the submodules before developing,
+so that your commits end up on a branch.
 
 ### Rust projects
 
-Install Rust with [rustup]().
+Install Rust with [rustup](). Due to various version compatibility issues, a lot of the crates in use here are
+just pointing at the `master` branch of their respective repositories or forks, rather than an actual release.
+We also have to use the nightly Rust release, as the server is using Rocket. That is supposed to change
+soon, so let's keep an eye on that.
+
+Once you have installed Rust, you can install the nightly release and set it to be used:
+
+```sh
+rustup install nightly
+rustup override set nightly
+```
 
 ### Web projects
 
-Install latest [Node.js]() and NPM.
-
-Install Rust as above, and then install `wasm-pack`:
-
-```bash
-cargo install wasm-pack
-```
+Not sure yet, these don't exist properly.
