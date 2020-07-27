@@ -370,7 +370,7 @@ dependencies = [
 [[package]]
 name = "diesel-citext"
 version = "0.4.0"
-source = "git+https://github.com/foxfriends/diesel-citext?branch=master#cb61653d41aef98be0d11f3ce0c99e59297e3825"
+source = "git+https://github.com/foxfriends/diesel-citext?branch=master#914c3f309d3daa9bb9ac46c8f136564bd1704387"
 dependencies = [
  "diesel 2.0.0 (git+https://github.com/diesel-rs/diesel?branch=master)",
  "serde 1.0.114 (registry+https://github.com/rust-lang/crates.io-index)",
