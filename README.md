@@ -25,15 +25,6 @@ so that your commits end up on a branch.
 
 Install Rust with [rustup](). Due to various version compatibility issues, a lot of the crates in use here are
 just pointing at the `master` branch of their respective repositories or forks, rather than an actual release.
-We also have to use the nightly Rust release, as the server is using Rocket. That is supposed to change
-soon, so let's keep an eye on that.
-
-Once you have installed Rust, you can install the nightly release and set it to be used:
-
-```sh
-rustup install nightly
-rustup override set nightly
-```
 
 ### Web projects
 

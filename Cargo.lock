@@ -1218,7 +1218,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "rocket"
 version = "0.5.0-dev"
-source = "git+https://github.com/SergioBenitez/Rocket?branch=master#e531770989ebf9c83b9d815520a3a269337c7a88"
+source = "git+https://github.com/SergioBenitez/Rocket?branch=master#45b4436ed3a7ab913d96c2b69ee4df7fd8c0c618"
 dependencies = [
  "async-trait 0.1.36 (registry+https://github.com/rust-lang/crates.io-index)",
  "atomic 0.4.6 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1243,7 +1243,7 @@ dependencies = [
 [[package]]
 name = "rocket_codegen"
 version = "0.5.0-dev"
-source = "git+https://github.com/SergioBenitez/Rocket?branch=master#e531770989ebf9c83b9d815520a3a269337c7a88"
+source = "git+https://github.com/SergioBenitez/Rocket?branch=master#45b4436ed3a7ab913d96c2b69ee4df7fd8c0c618"
 dependencies = [
  "devise 0.3.0 (git+https://github.com/SergioBenitez/Devise.git?rev=1e42a2691)",
  "glob 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1255,7 +1255,7 @@ dependencies = [
 [[package]]
 name = "rocket_http"
 version = "0.5.0-dev"
-source = "git+https://github.com/SergioBenitez/Rocket?branch=master#e531770989ebf9c83b9d815520a3a269337c7a88"
+source = "git+https://github.com/SergioBenitez/Rocket?branch=master#45b4436ed3a7ab913d96c2b69ee4df7fd8c0c618"
 dependencies = [
  "cookie 0.14.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "http 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
