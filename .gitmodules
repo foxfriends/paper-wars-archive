@@ -4,9 +4,6 @@
 [submodule "server"]
 	path = server
 	url = git@github.com:foxfriends/paper-wars-server
-[submodule "frontend-maker"]
-	path = frontend-maker
-	url = git@github.com:foxfriends/paper-wars-frontend-maker
 [submodule "shared"]
 	path = shared
 	url = git@github.com:foxfriends/paper-wars-shared
