@@ -1,12 +1,15 @@
 [submodule "client"]
 	path = client
-	url = git@github.com:foxfriends/paper-wars-client
+	url = git@github.com:foxfriends/paper-wars-client.git
 [submodule "server"]
 	path = server
-	url = git@github.com:foxfriends/paper-wars-server
+	url = git@github.com:foxfriends/paper-wars-server.git
 [submodule "shared"]
 	path = shared
-	url = git@github.com:foxfriends/paper-wars-shared
+	url = git@github.com:foxfriends/paper-wars-shared.git
 [submodule "data"]
 	path = data
-	url = git@github.com:foxfriends/paper-wars-data
+	url = git@github.com:foxfriends/paper-wars-data.git
+[submodule "web"]
+	path = web
+	url = git@github.com:foxfriends/paper-wars-web.git
