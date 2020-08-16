@@ -1,5 +1,7 @@
+[Rust]: https://www.rust-lang.org/
 [rustup]: https://rustup.rs/
 [Node.js]: https://nodejs.org/en/
+[nvm]: https://github.com/nvm-sh/nvm
 
 # Paper Wars (official name TBD)
 
@@ -21,11 +23,33 @@ git clone git@github.com:foxfriends/paper-wars --recursive
 You will probably want to `git checkout master` on each of the submodules before developing,
 so that your commits end up on a branch.
 
+```bash
+git submodule foreach git checkout master
+```
+
 ### Rust projects
 
-Install Rust with [rustup](). Due to various version compatibility issues, a lot of the crates in use here are
-just pointing at the `master` branch of their respective repositories or forks, rather than an actual release.
+The Rust projects use the standard Rust setup, with Cargo.
+
+Due to various version compatibility issues, a lot of the crates in use here are just pointing at 
+the `master` branch of their respective repositories or forks, rather than an actual release.
+
+Setup steps:
+*   Install Rust with [rustup][]. 
+*   Use `cargo` to build/run the project.
+    *   `cargo build`
+    *   `cargo run`
 
 ### Web projects
 
-Not sure yet, these don't exist properly.
+The web projects are actually also using Rust, and compiled for web using WASM. Therefore, both
+Rust and JavaScript environments must be set up for this to work.
+
+*   Install Rust with [rustup][].
+*   Install [Node.js][] (optionally with [nvm][] or your favourite version manager).
+*   Install [wasm-pack][]: `cargo install wasm-pack`.
+*   Install NPM dependencies: `npm install`
+*   Use `npm` to build/run the project.
+    *   `npm run build`
+    *   `npm run watch`
+    *   `npm start
