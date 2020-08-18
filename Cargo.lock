@@ -395,7 +395,6 @@ dependencies = [
  "chrono",
  "diesel",
  "diesel-citext",
- "diesel-derive-enum",
  "juniper",
  "serde_json",
  "uuid",
@@ -470,17 +469,6 @@ source = "git+https://github.com/foxfriends/diesel-citext#874b8bf07cc637c152aec9
 dependencies = [
  "diesel",
  "serde",
-]
-
-[[package]]
-name = "diesel-derive-enum"
-version = "2.0.0-pre"
-source = "git+https://github.com/foxfriends/diesel-derive-enum#731b86fec2afb39a255a59c564abe002c7f22e23"
-dependencies = [
- "heck",
- "proc-macro2",
- "quote",
- "syn",
 ]
 
 [[package]]
