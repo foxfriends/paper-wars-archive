@@ -2,8 +2,7 @@
 
 members = [
     "data",
-    "shared",
-    "client",
     "server",
+    "client",
     "web",
 ]

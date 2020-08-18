@@ -32,7 +32,8 @@ git submodule foreach git checkout master
 The Rust projects use the standard Rust setup, with Cargo.
 
 Due to various version compatibility issues, a lot of the crates in use here are just pointing at 
-the `master` branch of their respective repositories or forks, rather than an actual release.
+the `master` branch of their respective repositories or forks, rather than an actual release. Expect
+builds to randomly fail sometimes when these dependencies get updated.
 
 Setup steps:
 *   Install Rust with [rustup][]. 
