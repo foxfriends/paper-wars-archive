@@ -2636,13 +2636,17 @@ checksum = "93b162580e34310e5931c4b792560108b10fd14d64915d7fff8ff00180e70092"
 name = "web"
 version = "0.1.0"
 dependencies = [
+ "anyhow",
  "client",
  "dotenv",
  "lazy_static",
  "rocket",
  "rocket_contrib",
+ "serde",
  "tokio",
  "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "web-sys",
  "yew",
  "yew-router",
  "yewtil",
