@@ -12,6 +12,14 @@ unique behaviours.
 
 No.
 
+## Status
+
+This project is currently on hold, as I develop [Lumber](https://github.com/foxfriends/lumber)
+which I hope can be used as the scripting language to implement the components of this game.
+I hope to successfully build [Root](https://github.com/foxfriends/root) using Lumber before
+continuing here, as that is a smaller scale at which to try out the language and work out the
+kinks.
+
 ## Developing
 
 To start developing Paper Wars, clone this repository and the submodules.
