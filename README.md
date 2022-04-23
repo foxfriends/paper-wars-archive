@@ -1,3 +1,9 @@
+>  This implementation is being archived... I took too long of a break and don't want to get
+> back into it.
+> 
+> The dream is not over yet though.
+> [Battlefield](https://github.com/foxfriends/battlefield) is the continuation of this project.
+
 [Rust]: https://www.rust-lang.org/
 [rustup]: https://rustup.rs/
 [Node.js]: https://nodejs.org/en/
